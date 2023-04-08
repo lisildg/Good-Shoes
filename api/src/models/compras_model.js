@@ -1,8 +1,8 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../database');
 
 
-const Compras=sequelize.define(
+
+const Compras=async (sequelize)=>await sequelize.define(
     'Compras',{
        id: {
         type:DataTypes.UUID,
@@ -16,4 +16,6 @@ const Compras=sequelize.define(
 
     }
 )
+
+
 module.exports=Compras
