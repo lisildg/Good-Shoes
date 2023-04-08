@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const ruta_principal = require("./routes/route-index");
 
 const app = express();
-console.log(2)
 
 app.use(morgan("dev"));
 
