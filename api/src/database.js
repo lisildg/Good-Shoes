@@ -5,7 +5,7 @@ const{
     DBHOST,
     DBNAME,
     DBUSER,
-    DBPASS,
+    DBPASS, 
     PORTDB
 } = process.env
 
