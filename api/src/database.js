@@ -1,4 +1,5 @@
 const Sequelize = require('sequelize');
+require('dotenv').config()
 const{
     DBHOST,
     DBNAME,
@@ -25,7 +26,7 @@ sequelize.authenticate()
     console.log('Conexion exitosa con la db PostgreSQL <3')
 })
 .catch(err =>{
-    console.error('No se puedo establer conexion con la db PostgreSQL :(   :', err);
+    console.error('No se puedo establer conexion con la db PostgreSQL :(   :', err.message);
 })
 
 module.exports = sequelize

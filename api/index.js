@@ -1,7 +1,10 @@
 const app=require("./src/app")
 
+const port = 3000
 
 
-app.listen(3001,()=>{
-    console.log("app listen en port 3001")
+
+
+app.listen(port, () => {
+  console.log(`app listening on port ${port}`)
 })
