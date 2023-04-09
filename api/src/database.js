@@ -4,7 +4,7 @@ const{
     DBHOST,
     DBNAME,
     DBUSER,
-    DBPASS,
+    DBPASS, 
     PORTDB
 } = process.env
 
@@ -24,6 +24,8 @@ const sequelize = new Sequelize(DBNAME, DBUSER, DBPASS,{
 sequelize.authenticate()
 .then(()=>{
     console.log('Conexion exitosa con la db PostgreSQL <3')
+   
+
 })
 .catch(err =>{
     console.error('No se puedo establer conexion con la db PostgreSQL :(   :', err.message);
