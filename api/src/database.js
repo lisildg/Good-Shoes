@@ -1,5 +1,4 @@
 const Sequelize = require('sequelize');
-const Compras=require("./models/compras_model")
 require('dotenv').config()
 const{
     DBHOST,
@@ -21,10 +20,7 @@ const sequelize = new Sequelize(DBNAME, DBUSER, DBPASS,{
     },
     logging: false,
 });
-sequelize.models={
 
-   Compras: Compras(sequelize)
-}
 sequelize.authenticate()
 .then(()=>{
     console.log('Conexion exitosa con la db PostgreSQL <3')

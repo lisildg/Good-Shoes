@@ -1,4 +1,4 @@
-const {DataTypes, Sequelize} = require('sequelize');
+const {DataTypes} = require('sequelize');
 const sequelize = require('../database');
 
 const review = sequelize.define(
@@ -17,3 +17,5 @@ const review = sequelize.define(
         }
     }
 )
+
+module.exports=review

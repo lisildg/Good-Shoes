@@ -5,9 +5,7 @@ const user = sequelize.define(
     'user',{
         id:{
             type: DataTypes.UUID,
-            defaultValue: Sequelize.UUIDV4,
-            allowNull: false,
-            primayKey: true,
+            primaryKey:true,
         },
         email:{
             type: DataTypes.STRING,
@@ -31,3 +29,5 @@ const user = sequelize.define(
       
     }
 )
+
+module.exports=user

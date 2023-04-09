@@ -11,3 +11,5 @@ const payment = sequelize.define(
         }
     }
 )
+
+module.exports=payment

@@ -1,8 +1,7 @@
 const { DataTypes } = require('sequelize');
+const sequelize = require('../database');
 
-
-
-const Compras=async (sequelize)=>await sequelize.define(
+const Compras=sequelize.define(
     'Compras',{
        id: {
         type:DataTypes.UUID,
