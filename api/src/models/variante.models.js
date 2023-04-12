@@ -3,7 +3,8 @@ const sequelize = require('../database');
 
 
 const variante= sequelize.define('variante',
-{   id_variante:{
+{ 
+  id_variante:{
     type:DataTypes.INTEGER,
     primaryKey:true,
 },
