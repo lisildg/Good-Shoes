@@ -1,9 +1,11 @@
 import React from "react";
+import NavBar from "../NavBar/NavBar";
 
 
 function LandingPage(){
     return(
-    <div>
+        <div>
+        <NavBar />
         <h1 className="bg-red-700">hola</h1>
         <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
   <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
