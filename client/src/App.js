@@ -7,8 +7,9 @@ import LandingPage from './components/LandingPage/LandingPage';
 function App() {
   return (
     <div className="App">
+      
      <Routes>
-      <Route  path='/' component={LandingPage}/>
+      <Route  path="/" element={<LandingPage/>}/>
      </Routes>
     </div>
   );
