@@ -14,8 +14,9 @@ const Imagenes=sequelize.define(
         allowNull:false,
      },
      
+   }
+   
 
-    }
 )
 
 
