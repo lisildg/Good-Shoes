@@ -1,12 +1,9 @@
-import React from "react";
+import React from 'react'
 
-
-function LandingPage(){
-    return(
-    <div>
-        <h1 className="">Bienvenido a Good Shoes</h1>
-    </div>    
-    )
+function LandingPage() {
+  return (
+    <div>LandingPage</div>
+  )
 }
 
 export default LandingPage
