@@ -4,7 +4,7 @@ import React from "react";
 function LandingPage(){
     return(
     <div>
-        <h1 className="bg-red-500">hola</h1>
+        <h1 className="bg-red-700">hola</h1>
         <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
   <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
     <span className="countdown font-mono text-5xl">
