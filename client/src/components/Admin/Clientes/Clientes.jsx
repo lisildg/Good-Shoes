@@ -3,6 +3,7 @@ import React from 'react'
 function Clientes() {
   return (
     <div className="overflow-x-auto">
+      
     <table className="table table-compact w-full">
       <thead>
         <tr>
