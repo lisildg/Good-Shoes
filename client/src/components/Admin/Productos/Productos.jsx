@@ -4,7 +4,7 @@ function Productos() {
   const {products}=useSelector((state)=>state)
   return (
     <div>
-
+{/* para el caso que no haya productos */}
 {products.length==0 && (<div className="hero min-h-screen bg-base-200">
   <div className="hero-content text-center">
     <div className="max-w-md">
@@ -14,7 +14,6 @@ function Productos() {
     </div>
   </div>
 </div>)
-
 
 }
 
