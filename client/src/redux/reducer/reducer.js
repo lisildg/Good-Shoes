@@ -1,6 +1,11 @@
 
 
-const initialState = {}
+const initialState = {
+products:[],
+productdetail:{},
+  
+
+}
 
 const reducer=(state = initialState, action) => {
   switch (action.type) {
